@@ -1,173 +1,202 @@
-*{
-    margin:0%;
+* {
+    margin: 0%;
     font-family: Arial;
-    border:border-box;
+    border: border-box;
 }
 
 
-.navbar{
-    height:60px;
+.navbar {
+    height: 60px;
     background-color: #0f1111;
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-evenly;
 
 }
-.nav-logo{
-    height:50px;
-width:100px;
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
 }
-.logo{
-background-image:url("amazon_logo.png");
-background-size:cover;
-height:50px;
-width:100px;
+
+.logo {
+    background-image: url("image/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
 }
-.border:hover{
+
+.border:hover {
     border: 2px solid white;
 }
 
-.add-first{
+.add-first {
     margin-top: 8px;
-margin-left: 15px;
-font-size:0.85rem;
-color:#cfcfcf
+    margin-left: 15px;
+    font-size: 0.85rem;
+    color: #cfcfcf
 }
-.add-second{
+
+.add-second {
     margin-top: 10px;
     margin-left: 10px;
-    font-size:1rem;
+    font-size: 1rem;
 }
-.add-icon{
+
+.add-icon {
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
-.nav-search{
+
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     margin-left: 115px;
     background-color: rgb(217, 217, 55);
     margin-top: 10px;
-    height:40px;
-    width:600px;
+    height: 40px;
+    width: 600px;
     border-radius: 3px;
-    
-    
-}
-.nav-search:hover{
-    border:2px solid orange;
-}
-.search-select{
-    border-radius:3px;
-    border:none;
-background-color: #cfcfcf;
-width:50px;
-text-align:center;
-}
-.search-input{
-    width:520px;
-}
-.search-icon{
-    display:flex;
-    justify-content: center;
-align-items: center;
-font-size:1.2rem;
-color:black;
-width:40px;
-}
-.nav-accounts{
-   margin-top: 12px;
-}
-span{
-    font-size:12px;
+
 
 }
-.nav-region{
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    border-radius: 3px;
+    border: none;
+    background-color: #cfcfcf;
+    width: 50px;
+    text-align: center;
+}
+
+.search-input {
+    width: 520px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top:15px;
+    font-size: 1.2rem;
+    color: black;
+    width: 40px;
 }
-.nav-lists{
-    font-size:14px;
-    font-weight:700px;
-}
-.nav-return{
+
+.nav-accounts {
     margin-top: 12px;
 }
-.cart{
-    margin-top:10px;
-   font-family: 'Courier New', Courier, monospace;
+
+span {
+    font-size: 12px;
+
 }
-.cart i{
+
+.nav-region {
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav-lists {
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+.nav-return {
+    margin-top: 12px;
+}
+
+.cart {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cart i {
     font-size: 30px;
 }
-.cart p{
-    font-size:0.85rem;
-    font-weight:700px;
-    margin-left:5px;
+
+.cart p {
+    font-size: 0.85rem;
+    font-weight: 700px;
+    margin-left: 5px;
 }
-.panel{
-    height:40px;
-    background-color:#222f3d;
-    color:white;
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    }
-.panel-ops p{
-    display:inline;
-    font-size: 14px;
-    margin-left:10px;
 }
-.panel-ops{
+
+.panel-ops p {
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.panel-ops {
     width: 70%;
 }
-anel-deals{
-    font-size:16px;
-    font-weight:700px;
-    align-items:end;
+
+anel-deals {
+    font-size: 16px;
+    font-weight: 700px;
+    align-items: end;
 }
+
 /* hero-section */
-.hero-section{
-    background-image: url("hero_image.jpg");
-  background-size: cover;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  
+.hero-section {
+    background-image: url("image/hero_image.jpg");
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
 }
-.hero-message{
+
+.hero-message {
     align-items: center;
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size:0.85rem;
+    font-size: 0.85rem;
     margin-bottom: 25px;
 }
-.shop-section{
-    display:flex;
+
+.shop-section {
+    display: flex;
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
-.box{
-    border:2px solid black;
+
+.box {
+    border: 2px solid black;
     height: 400px;
     background-color: white;
-    width:23%;
-    padding: 20px 0px 15px ;
-   
+    width: 23%;
+    padding: 20px 0px 15px;
+
 }
-.box-image{
-    height:300px;
+
+.box-image {
+    height: 300px;
 }
-.box-content{
+
+.box-content {
     margin: 15px;
 }
-.box-image3{
-    height:300px;
+
+.box-image3 {
+    height: 300px;
     margin-right: 20px;
 }
